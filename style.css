@@ -7,20 +7,8 @@
 }
 
 
-.container{
-    width: 1922px;
-    height: 790px;
-    margin: 0 auto;
-
-    border:  1px solid#1B315F;
-
-}
-
-
 .amina2.container{
 margin: 0 auto;
-
-
 margin-top: 50px;
 
 }
@@ -67,38 +55,34 @@ position: relative;
 }
 
 
-.amina2.container img{
-  
-}
 /* ------------------- */
-
-
-.amina22.container{
-
-
-/* ------------------- */
-
 
 
 .amina3.container{
 
     width: 1921px;
     height: 546px;
-    background-color:#162E5E ;
+    background-color:white ;
     margin: 0 auto;
 
     
 }
 
+.amina23{
+    background-color: #1B315F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .amina22{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(66, 117, 225);
+    background: rgb(27, 89, 224);
     width: 871px;
-height: 274px;
-border-radius: 16px;
+    height: 274px;
+    border-radius: 16px;
 }
 .amina22 img{
     position: absolute;
@@ -153,9 +137,6 @@ text-align: center;
     margin-top: 20px;
  
 }
-/* ------------------- */
-
-
 
 .amina22-box button{
     border-radius: 4px;
@@ -175,10 +156,10 @@ margin-top: 20px;
 
 /* ======================================================================================================== */
 .amina3.container{
-    width: 1922px;
+    width: 1800px;
     height: 1184px;
     position: relative;
-    border: 1px solid rgb(21, 47, 96) ;
+    border: 1px solid white ;
 
 }
 .amina3-fotok{
@@ -190,7 +171,7 @@ margin-top: 20px;
     gap: 30px;
     max-width: 100%;
     margin-top: 170px;
-    margin-left: 170px;
+    margin-left: 110px;
 
    
     
@@ -210,7 +191,8 @@ margin-left: 90px;
 
 .fotok{
     position: absolute;
-    margin-left: -10px;
+    left: -10px;
+
   
 }
 
@@ -222,13 +204,13 @@ margin-left: 90px;
     border: none;
     border-radius: 3px;
     font-family: Montserrat;
-   margin-top: 30px;
-    display: flex;
-  text-align: center;
-  padding-top: 15px;
-  padding-left: 35px;
+    text-align: center;
     gap: 12px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 
@@ -241,31 +223,7 @@ margin-left: 90px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+/* -----------------footer */
 
 
 .footer{
@@ -470,7 +428,7 @@ justify-content: left;
 
 }
 
-}
+
 
 /* -----------------------karta */
 .karta-img{
