@@ -1,7 +1,17 @@
+.container{
+    margin: 0 auto;
+    width: 1840px;
+}
+
 .footer{
     margin: 0 auto;
     background: rgb(22, 45, 95);
     width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
     /* height: 450px; */
 }
 .footer-content{
@@ -178,3 +188,279 @@ display: flex;
 flex-direction: column;
 justify-content: left;
 }
+
+/* ----------------------spisok */
+.spisok{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(22, 45, 95);
+    margin-top: 30px;
+    /* align-items: center; */
+}
+.spisok-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+.spisok-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.spisok h1{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.spisok-text p{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* ---------------client */
+.client{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.client h1{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+padding: 20px;
+}
+.client-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+}
+.client-card{
+    border-radius: 4px;
+background: rgb(22, 45, 95);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:last baseline;
+gap: 0px;
+padding: 20px;
+}
+.client-card h2{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.client-card p{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.client-card h4{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.client-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+gap: 30px;
+margin-top: 20px;
+}
+.client-1{
+    width: 178px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid rgb(241, 245, 255);
+    background: rgb(241, 245, 255);
+    color: rgb(39, 112, 241);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.client-2{
+    width: 178px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid rgb(39, 112, 241); ;
+    background: rgb(39, 112, 241);
+    color: rgb(244, 245, 247);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* ----------------oue-doctor */
+.doctor-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.doctor-card img{
+    width: 380px;
+height: 441px;
+}
+.our-doctor h1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+padding: 15px;
+}
+.our-doctor{
+    background: rgb(22, 45, 95);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+height: 1000px;
+margin-top: 50px;
+}
+.doctor-card{
+display: flex;
+flex-direction: column;
+align-items: start;
+
+}
+.doc-con h2{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.doc-con p{
+    color: rgb(63, 87, 139);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.doc-con{
+    background-color: white;
+    width: 360px;
+    padding: 10px;
+}
+.doctor-btn{
+    margin: 0 auto;
+    border-radius: 4px;
+border: rgb(39, 112, 241);
+background: rgb(39, 112, 241);
+width: 165px;
+height: 56px;
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* --------amina1 */
+.amina2.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    margin-top: 50px;
+    }
+    
+    
+    .amina2.container h1{
+    color: #1B315F;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    width: 1176px;
+    margin: 0 auto;
+    position: relative;
+    }
+    .blue{
+      position: absolute;
+    left: 300px;
+    }
+    .union{
+        position: absolute;
+        top: 0;
+    }
+    .amina2.container p{
+        color: #1B315F;
+        width: 1100px;
+        font-family: 'Montserrat';
+        margin-top: 25px;
+       margin-left: 380px;
+       position: relative;
+    }
+    
+    .amina2.container h2{
+        color: #1B315F;
+        margin-top: 15px;
+       margin-left: 380px;
+    }
+    
+    .amina2.container h4{
+        color: #1B315F;
+        margin-top: 20px;
+        margin-left: 380px;
+    }
+    
+    
+    /* ------------------- */
+    
+    
+    .amina3.container{
+        width: 1921px;
+        height: 546px;
+        background-color:#162E5E ;
+        margin: 0 auto;
+    }

@@ -7,11 +7,6 @@
 }
 
 
-.container{
-    width: 1922px;
-    height: 790px;
-    margin: 0 auto;
-}
 
 .amina2.container{
 margin: 0 auto;
@@ -60,15 +55,15 @@ position: relative;
 }
 
 
-/* ------------------- */
-
-
 .amina3.container{
     width: 1921px;
     height: 546px;
     background-color:#162E5E ;
     margin: 0 auto;
 }
+/* ------------------- */
+
+
 
 .footer{
     margin: 0 auto;
@@ -494,6 +489,7 @@ padding: 15px;
     flex-direction: column;
     gap: 50px;
 height: 843px;
+margin-top: 40px;
 }
 .doctor-card{
 display: flex;
