@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgba(255, 255, 255, 0.959);
+}
 
 *{
     margin: 0;
@@ -37,6 +39,7 @@ position: relative;
 }
 .union{
     position: absolute;
+    left: 2150px;
 }
 .amina2.container p{
     color: #1B315F;
@@ -77,6 +80,7 @@ position: relative;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    position: relative;
 }
 .amina22{
     display: flex;
@@ -216,11 +220,18 @@ margin-left: 90px;
     align-items: center;
     margin-top: 20px;
 }
+.amin{
+    width: 1800px;
+    margin: o auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .amin33{
     width: 1800px;
-   top: 100px;
     height: 870px;
+position: relative;
 }
 
 .container{
@@ -237,23 +248,26 @@ display: flex;
 justify-content: left;
 align-items: center;
 top: 100px;
+padding: 60px;
 }
 
 
 .amincard{
+    position: absolute;
+    top: 150px;
+    left:800px;
     width: 767px;
     height: 499px;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: right;
+    justify-content:center;
   align-items: center;
-  position: absolute;
-  top: 1605px;
-  left: 2500px;
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 10px;
   box-shadow: 1px;
+  box-shadow: 6px 6px rgb(157, 150, 150);
+  padding: 20px;
     
 }
 .amincard p{
@@ -262,26 +276,28 @@ top: 100px;
     font-weight: 500;
     line-height: 26px;
     text-align: left;
-  
-    
   left: 10px;
 }
-.amincard img{
-   
-}
+
 
 .pultii{
     position: absolute;
-    left: 3200px;
-    top: 1500px;
+    left: 1400px;
+    top: 0px;
 }
+/* -------------------------- */
 
 
 .amintext{
     width: 1920px;
     height: 984px;
     margin: 0 auto;
-   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   gap: 10px;
+   margin-bottom: 100px;
 }
 
 .amintext h1{
