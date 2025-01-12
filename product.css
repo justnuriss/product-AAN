@@ -1,3 +1,79 @@
+.header{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 500px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 700px;
+
+}
+
+.logo img{
+    width: 48px;
+height: 48px;
+}
+.logo-1 img{
+    width: 289px;
+height: 64px;
+}
+
+.phone-number h1{
+    color: rgb(22, 44, 91);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 800;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+
+width: 306px;
+
+}
+.phone-number p{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 306px;
+}
+
+.box{
+    width: 246px;
+height: 56px;     
+border-radius: 4px;
+
+background: rgb(39, 112, 241);
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 191px;
+height: 56px;
+}
+.header-main{
+    display: flex;
+    gap: 140.5px;
+    width: 1440px;
+}
+
 .footer{
     margin: 0 auto;
     background: rgb(22, 45, 95);
