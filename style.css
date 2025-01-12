@@ -29,6 +29,7 @@ position: relative;
 .blue{
   position: absolute;
   margin-left: 350px;
+
 }
 .union{
     position: absolute;
@@ -213,11 +214,25 @@ margin-left: 90px;
     margin-top: 20px;
 }
 
+.amin33{
+    width: 1800px;
+    border: 1px solid red;
+    height: 870px;
+}
 
-
-
-
-
+.container{
+    width: 1800px;
+}
+.amin33 h1{
+    color: #1B315F;
+    font-family: Montserrat;
+    font-size: 44px;
+}
+.amin33 img{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
 /* ==================================== =====================================================================*/
 
 
