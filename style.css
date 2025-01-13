@@ -28,7 +28,12 @@ position: relative;
 }
 .blue{
   position: absolute;
+
+  margin-left: 350px;
+
+
   margin-left: 300px;
+
 }
 .union{
     position: absolute;
@@ -212,11 +217,117 @@ margin-left: 90px;
     margin-top: 20px;
 }
 
+.amin33{
+    width: 1800px;
+   top: 100px;
+    height: 870px;
+}
+
+.container{
+    width: 1800px;
+}
+.amin33 h1{
+    color: #1B315F;
+    font-family: Montserrat;
+    font-size: 44px;
+    top: 50px;
+}
+.amin33 img{
+display: flex;
+justify-content: left;
+align-items: center;
+top: 100px;
+}
 
 
+.amincard{
+    width: 767px;
+    height: 499px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: right;
+  align-items: center;
+  position: absolute;
+  top: 1605px;
+  left: 2500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;
+  box-shadow: 1px;
+    
+}
+.amincard p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+  
+    
+  left: 10px;
+}
+.amincard img{
+   
+}
+
+.pultii{
+    position: absolute;
+    left: 3200px;
+    top: 1500px;
+}
 
 
+.amintext{
+    width: 1920px;
+    height: 984px;
+    margin: 0 auto;
+   
+}
 
+.amintext h1{
+
+    width: 1178px;
+    height: 50px;
+    font-family: Montserrat;
+font-size: 54px;
+font-weight: 800;
+line-height: 56px;
+text-align: left;
+color:  rgb(21, 47, 96) ;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+gap: 20px;
+margin: 0 auto;
+
+
+    
+}
+
+.amintext p{
+    width: 1178px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1fr ,1fr);
+    gap: 20px;
+    margin: 0 auto;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+
+    
+}
+
+.amintext  h3{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
 /* ==================================== =====================================================================*/
 
 
