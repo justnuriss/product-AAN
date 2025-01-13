@@ -28,7 +28,11 @@ position: relative;
 }
 .blue{
   position: absolute;
+
   margin-left: 350px;
+
+
+  margin-left: 300px;
 
 }
 .union{
@@ -65,15 +69,14 @@ position: relative;
     height: 546px;
     background-color:white ;
     margin: 0 auto;
-
-    
 }
 
-.amina23{
+.amina23.container{
     background-color: #1B315F;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .amina22{
     display: flex;
