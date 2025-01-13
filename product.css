@@ -3,6 +3,314 @@
     width: 1840px;
 }
 
+.moskow{
+    width: 1920px;
+    height: 432px;
+   margin: 0 auto;
+   background-color:#162E5E;
+   padding: 20px;
+
+}
+.moskowdivbutt button{
+    border: none;
+    width: 231px;
+    height:56px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: rgb(22, 45, 95);
+
+
+}
+
+.moskowdivbutt button:hover{
+    background-color: #2770F1;
+    color: #FFFFFF;
+}
+.moskowdiv a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Montserrat;
+  top: 20px;
+  
+}
+.moskow h1{
+    color: #FFFFFF;
+width: 780px;
+font-family: Montserrat;
+font-size: 54px;
+font-weight: 800;
+line-height: 64px;
+text-align: left;
+
+}
+.moskow p{
+width: 780px;
+color: white;
+font-family: Montserrat;
+font-size: 56px;
+font-weight: 400;
+line-height: 64px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+/* ============================= */
+.alkogol h1{
+color: #162E5E  ;
+font-size: 50px;
+padding-left:20px ;
+}
+
+.alkogol{
+    margin: 0 auto;
+    width: 1790px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.alkogol img{
+    width: 240px;
+    height: 120px;
+    
+    
+}
+.hka6{
+    width: 1790px;
+    height: 404px;
+}
+
+.hkalar6{
+    color:#162E5E;
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+display: grid;
+grid-template-columns:
+repeat(1fr,1fr);
+
+}
+.hkalar6 p{
+color: #162E5E;
+}
+
+.etapy{
+    width: 1920px;
+    height: 839px;
+    background-color: #163063;
+    margin: 0 auto;
+    position: relative;
+
+}
+.etapydiv{
+    padding: 20px;
+}
+.card1{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+  
+    
+    
+}
+
+.card2{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+}
+.card3{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+}
+.card4{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+}
+.card5{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+}
+.card6{
+    width:350px;
+    height:188px;
+    padding: 16px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 56px 4px 4px 4px;
+    background-color: #FFFFFF;
+}
+
+.cards{
+     display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    width: 1115px;
+    height: 448px;
+   gap: 25px;
+    padding: 50px;
+}
+.etapy h1{
+    font-family: Montserrat;
+text-align: left;
+color: #f8f8f9;
+
+font-size: 44px;
+font-weight: 600;
+line-height: 56px;
+text-align: left;
+
+
+
+}
+.etapy p{
+    color: #1B315F;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+
+}
+
+.etapima{
+    position: absolute;
+margin-left: 1272px;
+}
+
+
+/* ==================================================================== */
+
+
+.alextext{
+    width: 1230px;
+    height: 850px;
+
+}
+.alextext h1{
+    color: #162E5E;
+    font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+text-align: left;
+width: 1227px;
+height: 112px;
+
+
+
+}
+.alextext h3{
+    color: #162E5E;
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 800;
+line-height: 39.01px;
+text-align: left;
+
+
+}
+.alextext h5{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #162E5E;
+
+}
+.alextext p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #162E5E;
+
+}
+.alex{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+.alexx img{
+    border-radius: 200px 200px 200px 0px;
+}
+
+/* ================================================================ */
+
+.certif{
+
+    width: 1920px;
+    height: 771px;
+
+
+}
+.certif h1{
+    font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+text-align: left;
+color: #1B315F;
+
+
+}
+
+.certif1 {
+    width: 410px;
+    width: 1920px;
+    height: 771px; 
+    margin:0 auto;
+    
+}
+/* .list1{
+
+}
+.list2{
+
+}
+.list3{
+
+}
+.list4{
+
+}
+.list1:hover .listhover{
+
+
+}
+.listhover{
+    background-color: #152F6099;
+    position: absolute;
+    
+} */
+/* ========================= */
 .footer{
     margin: 0 auto;
     background: rgb(22, 45, 95);
