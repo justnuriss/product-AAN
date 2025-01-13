@@ -1,0 +1,28 @@
+<svg width="132.000000" height="132.000000" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_1510_499_dd" x="0.000000" y="0.000000" width="132.000000" height="132.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="8"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.10588 0 0 0 0 0.19216 0 0 0 0 0.37255 0 0 0 0.15 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip1510_499">
+			<rect id="Frame 57" rx="41.500000" width="83.000000" height="83.000000" transform="translate(24.500000 20.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_1510_499_dd)">
+		<g filter="url(#filter_1510_499_dd)">
+			<path id="Frame 57" d="M24 62C24 38.8 42.8 20 66 20C89.19 20 108 38.8 108 62C108 85.19 89.19 104 66 104L24 104L24 62Z" fill="#2770F1" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<g clip-path="url(#clip1510_499)">
+			<path id="2" d="M76.68 76.5L76.68 71.21L64.63 71.21L71.08 65.14Q73.83 62.58 74.79 60.58Q75.16 59.81 75.39 59Q75.76 57.7 75.76 56.3Q75.76 54.29 74.93 52.7Q74.72 52.29 74.46 51.91Q74.31 51.71 74.15 51.51Q72.9 49.95 70.82 49.04Q68.47 48.02 65.36 48.02Q61.64 48.02 58.76 49.4Q56.48 50.48 54.98 52.23Q54.58 52.7 54.23 53.21L58.95 56.25Q59.67 55.25 60.63 54.61Q61.01 54.36 61.43 54.16Q62.92 53.46 64.75 53.46Q66.96 53.46 68.09 54.36Q68.45 54.64 68.7 55Q69.23 55.78 69.23 56.93Q69.23 58.1 68.63 59.28Q68.03 60.46 66.31 62.09L55.51 72.3L55.51 76.5L76.68 76.5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
