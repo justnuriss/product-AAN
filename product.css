@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 .container{
     margin: 0 auto;
     width: 1840px;
@@ -196,8 +199,10 @@ justify-content: left;
     justify-content: left;
     align-items: center;
     background-color: rgb(22, 45, 95);
+    /* background: url(./image/abstract-blue-background-digital-art-heartbeat-wallpaper-preview.jpg); */
     margin-top: 30px;
     /* align-items: center; */
+    /* margin-bottom: 50px; */
 }
 .spisok-text{
     display: flex;
@@ -215,7 +220,7 @@ justify-content: left;
     color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 44px;
-font-weight: 800;
+font-weight: 900;
 line-height: 56px;
 letter-spacing: 0%;
 text-align: left;
@@ -224,7 +229,7 @@ justify-content: left;
 align-items: center;
 }
 .spisok-text p{
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.929);
 font-family: Montserrat;
 font-size: 19px;
 font-weight: 400;
