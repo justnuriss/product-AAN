@@ -1,3 +1,4 @@
+
 body{
     background-color: white;
 }
@@ -314,6 +315,102 @@ color: #1B315F;
     
 } */
 /* ========================= */
+
+.header{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 500px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 700px;
+
+}
+
+.logo img{
+    width: 48px;
+height: 48px;
+}
+.logo-1 img{
+    width: 289px;
+height: 64px;
+}
+
+.phone-number h1{
+    color: rgb(22, 44, 91);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 800;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+
+width: 306px;
+
+}
+.phone-number p{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 306px;
+}
+
+.box{
+    width: 246px;
+height: 56px;     
+border-radius: 4px;
+
+background: rgb(39, 112, 241);
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 191px;
+height: 56px;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main ul{
+    display: flex;
+    list-style: none;
+    width: 985px;
+    justify-content: space-between;
+    height: 38px;
+}
+.header-main ul li{
+    color: rgb(27, 49, 95);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
 .footer{
     margin: 0 auto;
     background: rgb(22, 45, 95);
@@ -500,6 +597,7 @@ flex-direction: column;
 justify-content: left;
 }
 
+
 /* ----------------------spisok */
 .spisok{
     display: flex;
@@ -540,10 +638,29 @@ align-items: center;
     color: rgba(255, 255, 255, 0.929);
 font-family: Montserrat;
 font-size: 19px;
+}
+
+.theme h1{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 800;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+width: 1176px;
+height: 112px;
+}
+
+.theme p{
+    color: rgb(63, 87, 139);
+font-family: Montserrat;
+font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+
 }
 /* ---------------client */
 .client{
@@ -589,6 +706,25 @@ padding: 20px;
 }
 .client-card p{
     color: rgb(255, 255, 255);
+
+width: 1176px;
+height: 96px;
+margin-top: -10px;
+}
+.theme h6{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 800;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+width: 1176px;
+height: 39px;
+margin-top: -80px;
+}
+.theme li{
+    color: rgb(63, 87, 139);
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
@@ -596,14 +732,22 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
+
 .client-card h4{
     color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 18px;
+}
+
+.theme h4{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+
 }
 .client-btns{
     display: flex;
@@ -634,11 +778,47 @@ text-align: center;
     border: 1px solid rgb(39, 112, 241); ;
     background: rgb(39, 112, 241);
     color: rgb(244, 245, 247);
+
+width: 1176px;
+height: 24px;
+}
+
+.theme {
+    height: 300px;
+    width: 1176px;;
+}
+
+.information{
+    width: 872px;
+height: 322px;
+border-radius: 4px;
+
+background: rgb(25, 104, 241);
+margin-bottom: 500px;
+
+
+
+
+}
+.helpline img{
+    width: 298.5px;
+height: 56px;
+}
+
+.helpline button{
+    width: 191px;
+height: 56px;
+border-radius: 4px;
+
+background: rgb(21, 47, 96);
+color: rgb(255, 255, 255);
+
 font-family: Montserrat;
 font-size: 18px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
+
 text-align: center;
 }
 /* ----------------oue-doctor */
@@ -690,6 +870,47 @@ text-align: left;
 }
 .doc-con p{
     color: rgb(63, 87, 139);
+
+text-align: left;
+
+}
+
+.helpline{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-left: 20px;
+   
+}
+
+.information h1{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+width: 600px;
+height: 80px;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+.information h6{
+    width: 808px;
+height: 26px;
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center; 
+}
+
+.information p{
+    color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
@@ -931,6 +1152,61 @@ color: rgba(18, 55, 136, 0.774);
     align-items: center;
     justify-content:left;
     color: rgba(73, 104, 170, 0.774);
+
+text-align: center;
+width: 808px;
+height: 24px;
+}
+.information{
+    margin: 0 auto;
+    margin-top: -450px;
+
+}
+
+.consult{
+    background-color: rgba(9, 9, 133, 0.819);
+    width: 1921px;
+  
+   
+   
+} 
+.consult-img img{
+    position: relative;
+    width: 1921px;
+height: 546px;
+}
+
+.slip{
+    width: 355px;
+height: 495px;
+border-radius: 4px;
+
+background: rgb(255, 255, 255);
+margin-top: 100px;
+}
+
+.slip h1{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 800;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.slip h6{
+    color: rgb(27, 49, 95);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: -30px;
+}
+.slip p{
+    color: rgb(63, 87, 139);
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
@@ -947,6 +1223,28 @@ text-align: left;
 }
 .otvet-content h1{
     color: rgb(27, 49, 95);
+margin-top: -50px;
+} 
+
+.slip img{
+    width: 353px;
+height: 377px;
+}
+
+
+.our-doctors{
+    display: flex;
+   justify-content: space-around;
+   gap: 50px;
+   width: 1922px;
+height: 843px;
+background: rgb(22, 45, 95);
+
+
+}
+
+.our-doctors h2{
+    color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 44px;
 font-weight: 800;
@@ -972,4 +1270,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 10px;
+width: 500px;
+
 }
